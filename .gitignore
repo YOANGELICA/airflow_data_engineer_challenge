@@ -4,5 +4,7 @@ __pycache__/
 data/
 db_config.json
 
+db_insert.py
+
 venv/
 *.env

@@ -5,6 +5,7 @@ data/
 db_config.json
 
 db_insert.py
+db_insert.ipynb
 
 venv/
 *.env

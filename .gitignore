@@ -3,6 +3,9 @@ __pycache__/
 
 data/
 db_config.json
+client_secrets.json
+credentials_module.json
+settings.yaml
 
 db_insert.py
 db_insert.ipynb

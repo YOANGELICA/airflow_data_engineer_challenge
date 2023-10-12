@@ -2,10 +2,8 @@ __pycache__/
 .ipynb_checkpoints
 
 data/
-db_config.json
-client_secrets.json
-credentials_module.json
-settings.yaml
+
+secrets/
 
 db_insert.py
 db_insert.ipynb

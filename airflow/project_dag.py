@@ -8,7 +8,7 @@ from etl import read_csv, read_db, transform_csv, transform_db, merge, load, sto
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2023, 10, 5),  # Update the start date to today or an appropriate date
+    'start_date': datetime(2023, 9, 30),
     'email': ['airflow@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
@@ -20,7 +20,7 @@ with DAG(
     'project_dag',
     default_args=default_args,
     description='Spotify and Grammys analysis DAG',
-    schedule_interval='@daily',  # Set the schedule interval as per your requirements
+    schedule_interval='@daily',
 ) as dag:
 
     read_csv_task = PythonOperator(

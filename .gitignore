@@ -1,7 +1,8 @@
 __pycache__/
 .ipynb_checkpoints
 
-data/
+data/spotify_dataset.csv
+data/the_grammy_awards.csv
 
 secrets/
 
